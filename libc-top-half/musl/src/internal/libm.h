@@ -178,6 +178,7 @@ static inline void fp_force_evall(long double x)
 {
 	volatile long double y;
 	y = x;
+	(void)y;
 }
 #endif
 

@@ -72,6 +72,12 @@ static ssize_t vstrfmon_l(char *s, size_t n, locale_t loc, const char *fmt, va_l
 		s += l;
 		n -= l;
 	}
+	(void)fill;
+	(void)nogrp;
+	(void)negpar;
+	(void)nosym;
+	(void)left;
+	(void)intl;
 	return s-s0;
 }
 
